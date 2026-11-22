@@ -58,3 +58,4 @@ jobs:
         run: |
           echo "Verifying bucket exists in runner's MiniStack environment..."
           aws --endpoint-url=http://localhost:4566 s3 ls | grep "module-13-pipeline-verification-bucket"
+
