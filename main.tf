@@ -16,7 +16,7 @@ provider "aws" {
   skip_metadata_api_check     = true
   skip_requesting_account_id  = true
   
-  
+  # Crucial for GitHub Actions DNS routing
   s3_use_path_style           = true
 
   endpoints {
